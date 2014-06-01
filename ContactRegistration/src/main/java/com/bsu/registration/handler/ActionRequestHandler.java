@@ -5,15 +5,16 @@ import com.bsu.registration.model.Contact;
 import com.bsu.registration.service.ContactService;
 import com.bsu.registration.utils.IdGenerator;
 import com.bsu.registration.view.PageModel;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import static com.bsu.registration.handler.Action.*;
+import static com.bsu.registration.handler.Action.REGISTRATION;
 
 /**
  * @author gbondarchuk
  */
 @Handler(REGISTRATION)
 public class ActionRequestHandler implements RequestHandler {
-
+    @Autowired
     private ContactService contactService = ContactServiceFactory.getInstance();
 
     @Override

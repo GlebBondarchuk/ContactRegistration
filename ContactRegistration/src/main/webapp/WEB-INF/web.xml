@@ -8,7 +8,6 @@
         <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>com.bsu.registration.controller.DispatcherServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>/registration</url-pattern>

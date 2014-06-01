@@ -8,7 +8,7 @@ import com.bsu.registration.view.PageModel;
 
 import java.util.List;
 
-import static com.bsu.registration.handler.Action.*;
+import static com.bsu.registration.handler.Action.PAGINATION;
 
 /**
  * @author gbondarchuk

@@ -4,7 +4,7 @@ import com.bsu.registration.service.UnitOfWorkService;
 import com.bsu.registration.service.UnitOfWorkServiceImpl;
 import com.bsu.registration.view.PageModel;
 
-import static com.bsu.registration.handler.Action.*;
+import static com.bsu.registration.handler.Action.START;
 
 /**
  * @author gbondarchuk
